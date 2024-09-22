@@ -1,0 +1,83 @@
+
+
+.Main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.start-button {
+    display: flex;
+    
+}
+
+
+.Option {
+    position: absolute;
+    display: flex;
+    margin-left: 650px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.log {
+  margin-top: 20px;
+}
+
+.spinner {
+  width: 20%;
+}
+
+.betting-button {
+    display: flex;
+    gap: 1px;
+}
+
+button {
+    font-family: 'TheJamsil5Bold';
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.button-28 {
+  appearance: none;
+  background-color: #d4d4d4;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  line-height: normal;
+  margin: 0;
+  min-height: 40px;
+  min-width: 0;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+  background-color: #575757;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
